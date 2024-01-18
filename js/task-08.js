@@ -4,7 +4,7 @@ form.addEventListener("submit" , (event) => {
 
 
     const{
-        elemenets:{ email , password},
+        elements:{ email , password},
     } = event.currentTarget;
 
     if(email.value ==="" || password.value === ""){
