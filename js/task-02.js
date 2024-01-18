@@ -12,8 +12,8 @@ for (const ingredient of ingredients) {
   const li= document.createElement("li");
   li.classList.add("item");
   li.textContent = ingredient;
-  allIngredients.append(item);
-  console.log(item);
+  allIngredients.append(li);
+  console.log(li);
 }
 
 /*

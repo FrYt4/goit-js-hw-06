@@ -3,7 +3,7 @@ console.log(`Number of categories: ${categories.length}`)
 
 categories.forEach(category => {
 const nameOfCategory = category.querySelector(`h2`).textContent 
-const countElements = category.querySelector(`li < ul`).length
+const countElements = category.querySelector(`ul > li`).length
 console.log(`Category: ${nameOfCategory}`);
 console.log(`Elements: ${countElements}`)
 });
