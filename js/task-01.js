@@ -2,8 +2,8 @@ const categories = document.querySelectorAll("ul#categories > li.item")  //Pobie
 console.log(`Number of categories: ${categories.length}`)  
 
 categories.forEach(category => {
-const nameOfCategory = category.querySelector(`h2`).textContent 
-const countElements = category.querySelector(`ul > li`).length
+const nameOfCategory = category.querySelector("h2").textContent 
+const countElements = category.querySelector("ul > li").length
 console.log(`Category: ${nameOfCategory}`);
 console.log(`Elements: ${countElements}`)
 });

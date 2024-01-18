@@ -1,5 +1,5 @@
 const form = document.querySelector(".login-form");
-form.addEventListener("submit" , (event) =>{
+form.addEventListener("submit" , (event) => {
     event.preventDefault();
 
 
@@ -8,12 +8,12 @@ form.addEventListener("submit" , (event) =>{
     } = event.currentTarget;
 
     if(email.value ==="" || password.value === ""){
-        return alert("Please fill in all the fields");
+        return alert("Please fill in all the fields!");
     }
     const elementsObj = {
         email:email.value,
         password:password.value,
     };
     event.currentTarget.reset();
-    return console.log(elementsObj)
-} )
+    return console.log(elementsObj);
+} );
