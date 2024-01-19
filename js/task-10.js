@@ -15,6 +15,7 @@ const handler = () => {
 };
 const removeHandler = () => {
     boxes.innerHTML = null;
+    amount = 0;
 };
 createBtn.addEventListener("click", handler);
 
