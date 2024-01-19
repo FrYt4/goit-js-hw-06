@@ -15,3 +15,4 @@ const changeColor = () => {
   colorSpan.textContent = color();
 };
 
+btn.addEventListener("click", changeColor);
