@@ -22,7 +22,7 @@ const listItems = ingredients.map(ingredient => {
 const li = document.createElement(`li`);
 li.classList.add("item");
 li.textContent = ingredient
-allIngredients.append(...listItems);
+allIngredients.appendChild(li);
 console.log(li);
 
 return li;
